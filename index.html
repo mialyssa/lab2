@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> CSE 110 Lab 2 - Spring 2024 </title>
-    <link rel="icon" type="x-icon" href="favicon.png">
+    <link rel="icon" href="favicon.png">
 </head>
 
 
@@ -39,21 +39,27 @@
 
     <section>
     <h3> Attendees </h3>
-        <ul>
-            <input type="checkbox" />Sora
-            <br><input type="checkbox" />Donald Duck
-            <br><input type="checkbox" />Goofy
-            <br><input type="checkbox" />Kairi
-            <br><input type="checkbox" />Riku
-            <br><input type="checkbox" />Mickey Mouse
-            <br><input type="checkbox" />Roxas
-            <br><input type="checkbox" />Axel
-            <br><input type="checkbox" />Xion
-            <br><input type="checkbox" />Naminé
-            <br><input type="checkbox" />Terra
-            <br><input type="checkbox" />Aqua
-            <br><input type="checkbox" />Ventus
-        </ul>
+        <input type="checkbox" id="sora" name="sora" value="sora">
+            <label for="sora">Sora</label><br>
+        <input type="checkbox" id="donald" name="donald" value="donald">
+            <label for="donald">Donald Duck</label><br>
+        <input type="checkbox" id="goofy" name="goofy" value="donald">
+            <label for="goofy">Goofy</label><br>
+        <input type="checkbox" id="kairi" name="kairi" value="kairi">
+            <label for="kairi">Kairi</label><br>
+        <input type="checkbox" id="riku" name="riku" value="riku">
+            <label for="riku">Riku</label><br>
+        <input type="checkbox" id="mickey" name="mickey" value="mickey">
+            <label for="mickey">Mickey Mouse</label><br>
+        <input type="checkbox" id="Roxas" name="Roxas" value="Roxas">
+            <label for="Roxas">Roxas</label><br>
+        <input type="checkbox" id="axel" name="axel" value="axel">
+            <label for="axel">Axel</label><br>
+        <input type="checkbox" id="xion" name="xion" value="xion">
+            <label for="xion">Xion</label><br>
+        <input type="checkbox" id="namine" name="namine" value="namine">
+            <label for="namine">Namine</label><br>
+
     </section>
 
     <section>   
@@ -66,7 +72,7 @@
             <li>Researched and arranged the rental of a giant chocobo for the journey. Secured a reliable chocobo rental service. <b>(Riku)</b></li>
             <li>Procured a detailed map of The World That Never Was for reference during the journey. Confirmed the map's accuracy and usefulness. <b>(Mickey Mouse)</b></li>
             <li>Compiled a list of jokes, stories, and activities to entertain the group during travel downtime. Guaranteed to keep everyone laughing and engaged. <b>(Roxas and Axel)</b></li>
-            <li>Gathered art supplies and journals for documenting the adventure. Prepared to capture every memorable moment. <b>(Ventus)</b></li>
+            <li>Gathered art supplies and journals for documenting the adventure. Prepared to capture every memorable moment. <b>(Namine)</b></li>
         </ol>
     </section>
 
@@ -94,9 +100,6 @@
                 <option value="Axel"></option>
                 <option value="Xion"></option>
                 <option value="Naminé"></option>
-                <option value="Terra"></option>
-                <option value="Aqua"></option>
-                <option value="Ventus"></option>
                 </datalist>    
             </section>
     
@@ -137,7 +140,7 @@
         <fieldset>
           <legend>Attendance:</legend>
           <label for="name">Full name:</label>
-          <input type="text" id="fname" name="fname"><br><br>
+          <input type="text" id="name" name="name"><br><br>
           
           <label for="email">Email:</label>
           <input type="email" id="email" name="email"><br><br>
